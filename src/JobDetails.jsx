@@ -15,7 +15,7 @@ export default function JobDetails() {
         <>
             <div className='w-full flex justify-center'>
                 <div className='container'>
-                    <div className='mt-6 text-2xl xl:text-4xl font-extrabold py-4 mx-8 sm:mx-12 xl:mx-0'>job details</div>
+                    <div className='mt-6 text-2xl xl:text-4xl font-extrabold py-4 mx-8 sm:mx-12 xl:mx-0 text-[#333333]'>job details</div>
                     <div className="mt-6 w-[90%] xl:w-full h-1/2 bg-white rounded-[38px] border-2 border-black drop-shadow-[9px_9px_rgba(0,0,0,1)] flex flex-row p-4 xl:p-12 mx-auto">
                         <div className="h-full w-1/2">
                             <img className="object-cover rounded-2xl h-full xl:w-full" src={state.image} />

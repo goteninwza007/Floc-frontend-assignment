@@ -6,8 +6,8 @@ export default function JobCard({ jobName, jobDetails, image }) {
                     <img className="rounded-2xl object-cover h-52 w-full" src={image} />
                 </div>
                 <div className="">
-                    <div className="text-bold text-2xl mt-2 h-16">{jobName}</div>
-                    <div className="h-20">
+                    <div className="font-semibold text-2xl mt-2 h-16 text-[#262626]">{jobName}</div>
+                    <div className="h-20 text-[#262626]">
                         {jobDetails.map((el) => {
                             return (
                                 <div>{el}</div>
