@@ -13,7 +13,7 @@ function App() {
       <div className='w-full flex justify-center'>
         <div className='container'>
           <div className='mt-4 text-4xl text-bold py-10 border-b-2 border-[#B9B8B7] mx-8 sm:mx-12 xl:mx-0'>explore job</div>
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-12 mx-8 sm:mx-12 xl:mx-0">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-x-6 gap-y-10 mx-8 sm:mx-12 xl:mx-8">
             {JOBDATA.map((el) => {
               if (isAuthenticated) {
                 return (

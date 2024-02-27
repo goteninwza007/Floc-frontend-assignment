@@ -1,4 +1,4 @@
-import Info_image from '@/assets/info_image.png'
+import Info_image from '/info_image.png'
 export default function Info() {
     return (
         <div className="bg-[#E7DFD3] py-8 md:py-24 xl:py-36 w-full flex justify-center">
