@@ -6,7 +6,7 @@ import AuthContext from "@/context/AuthContext";
 import { JOBDATA } from '@/assets/data/jobdata';
 
 function App() {
-  const { isAuthenticated } = useContext(AuthContext)
+  const { isAuthenticated, setShowModal, showModal } = useContext(AuthContext)
   return (
     <>
       <Info />
@@ -24,7 +24,9 @@ function App() {
               }
               else {
                 return (
-                  <JobCard key={el.jobId} jobName={el.jobName} jobDetails={el.jobDetails} image={el.image} />
+                  <div onClick={() => setShowModal(true)}>
+                    <JobCard key={el.jobId} jobName={el.jobName} jobDetails={el.jobDetails} image={el.image} />
+                  </div>
                 )
               }
             })}

@@ -55,7 +55,7 @@ const RootComponent = () => {
 
   return (
     <React.StrictMode>
-      <AuthContext.Provider value={{ isAuthenticated, setIsAuthenticated }}>
+      <AuthContext.Provider value={{ isAuthenticated, setIsAuthenticated, showModal, setShowModal }}>
         <div className='w-screen pb-20 bg-[#F6F3EE] relative'>
           <TopNavBar setShowModal={setShowModal} handleLogout={handleLogout} isAuthenticated={isAuthenticated} />
           <RouterProvider router={router} />

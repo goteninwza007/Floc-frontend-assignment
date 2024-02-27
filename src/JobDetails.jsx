@@ -18,7 +18,7 @@ export default function JobDetails() {
                     <div className='mt-6 text-2xl xl:text-4xl font-extrabold py-4 mx-8 sm:mx-12 xl:mx-0 text-[#333333]'>job details</div>
                     <div className="mt-6 w-[90%] xl:w-full h-1/2 bg-white rounded-[38px] border-2 border-black drop-shadow-[9px_9px_rgba(0,0,0,1)] flex flex-row p-4 xl:p-12 mx-auto">
                         <div className="h-full w-1/2">
-                            <img className="object-cover rounded-2xl h-full xl:w-full" src={state.image} />
+                            <img className="object-cover rounded-2xl h-full w-full" src={state.image} />
                         </div>
                         <div className="flex flex-col ml-4 xl:ml-8 w-1/2">
                             <div className="text-bold text-lg sm:text-3xl lg:text-4xl xl:text-5xl h-20 xl:h-36 text-[#262626]">{state.jobName}</div>
